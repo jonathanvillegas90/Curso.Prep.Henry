@@ -1,0 +1,11 @@
+las variables son elementos de diferentes tipos los cuales pueden contener o no informacion.
+las variables pueden estar descriptas de diferente forma: var, let, const.
+
+Los Strings son palabras o oraciones, en la cual cada letra o caracter es un eslabon de una cadena, que podemos medir y comparar. 
+
+las funciones son usadas para simplificar las tareas repetitivas, pueden devolver o no un valor. El return en la funcion va a determinar si devuelve algun valor o no.
+
+las declaraciones if o condicionales, son funciones que solo se van a ejecutar en caso de que la condicion sea verdadera. 
+
+los valores booleanos, son elementos de la logica computacional, determinan si una condicion es verdadera o falsa, se utiliza en su mayoria como elemento de retorno o comparacion
+
