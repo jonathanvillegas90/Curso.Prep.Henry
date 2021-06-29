@@ -1,0 +1,7 @@
+los objetos en js son elementos que pueden contener mas de una variable y que ayudan a diferenciar de otros objetos
+
+las propiedades son los elelemntos de los objetos, las propiedades deben ser unicas para evitar ambiguedades
+
+los metodos son funciones que se llaman dentro de los objetos y hacen que estos funcionen de una forma determinada
+
+los bucles for in son bucles de for mejorados para ser utilizados dentro de los objetos

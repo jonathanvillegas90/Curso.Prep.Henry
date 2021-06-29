@@ -1,0 +1,5 @@
+los prototipos se utilizan para evitar reescribir codigo, las clases tienen propiedades prototype
+las cuales podemos establecen en metodos. estos metodos tiene acceso a los elementos del objeto.
+
+los constructores de clases nos permiten iniciar objetos, estos contructores pueden ser simples o anidados, 
+los constructores captan las propiedades unicas de ese objeto.

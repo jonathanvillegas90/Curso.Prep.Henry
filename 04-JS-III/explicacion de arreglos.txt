@@ -1,0 +1,2 @@
+los arreglos son elementos en los cuales pueden tener ningun o mochos datos, los arreglos deben ser del mismo tipo 
+para mejorar la comprension del mismo, se sabe que el arreglo es una lista. 

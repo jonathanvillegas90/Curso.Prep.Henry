@@ -1,3 +1,4 @@
+
 /* eslint-disable no-undef */
 const {
   nuevaString,
@@ -36,13 +37,13 @@ const {
 } = require('../homework.js');
 
 describe('nuevaString', function() {
-  it('Deberia ser un string', function() {
+   it('Deberia ser un string', function() {
     expect(typeof nuevaString).toBe('string');
   });
 });
 
 describe('nuevoNum', function() {
-  it('Deberia ser un numero', function() {
+    it('Deberia ser un numero', function() {
     expect(typeof nuevoNum).toBe('number');
   });
 });
@@ -54,7 +55,7 @@ describe('nuevoBool', function() {
 });
 
 describe('nuevaResta', function() {
-  it('Deberia ser un booleano', function() {
+    it('Deberia ser un booleano', function() {
     expect(nuevaResta).toBe(true);
   });
 });
@@ -66,33 +67,37 @@ describe('nuevaMultiplicacion', function() {
 });
 
 describe('nuevoModulo', function() {
-  it('Deberia ser un booleano', function() {
+    it('Deberia ser un booleano', function() {
     expect(nuevoModulo).toBe(true);
   });
 });
 
 describe('devolverString(str)', function() {
-  it('Deberia devolver el string provisto', function() {
+    it('Deberia devolver el string provisto', function() {
     let string = 'Henry';
     expect(devolverString(string)).toBe(string);
   });
 });
 
 describe('suma(x, y)', function() {
-  it('Deberia devolver la suma de los dos argumentos', function() {
+    it('Deberia devolver la suma de los dos argumentos', function() {
     expect(suma(5, 5)).toBe(10);
     expect(suma(-1, 5)).toBe(4);
   });
 });
 
+
+
 describe('resta(x, y)', function() {
-  it('Deberia devolver la diferencia de los dos argumentos', function() {
+    it('Deberia devolver la diferencia de los dos argumentos', function() {
     expect(resta(5, 5)).toBe(0);
     expect(resta(-1, 5)).toBe(-6);
     expect(resta(5, -5)).toBe(10);
     expect(resta(0, 0)).toBe(0);
   });
 });
+
+
 
 describe('divide(x, y)', function() {
   it('Deberia devolver la division de los dos argumentos', function() {
@@ -109,7 +114,6 @@ describe('multiplica(x, y)', function() {
     expect(multiplica(11, 0)).toBe(0);
   });
 });
-
 
 describe('sonIguales(x, y)', function() {
   it('Deberia devolver true si los argumentos son iguales y sino false', function() {
