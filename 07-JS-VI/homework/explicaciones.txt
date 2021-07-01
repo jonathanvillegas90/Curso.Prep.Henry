@@ -1,0 +1,2 @@
+Las funciones Callback son aquellas que dentro de si mismas llaman a otra funcion, esto evita 
+que se repita codigo y se pueda reutilizar funciones descriptas anteriormente. 
